@@ -46,7 +46,7 @@ const featuredArray = [
 ];
 
 featured.innerHTML = featuredArray.map((project) => {
-    const html = `
+  const html = `
         <div class="feature">
                     <div class="left ray">
                         <img src="${project.profileImg}" alt="">
@@ -58,5 +58,5 @@ featured.innerHTML = featuredArray.map((project) => {
                     </div>
         </div>
     `;
-    return html;
+  return html;
 });
