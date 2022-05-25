@@ -41,9 +41,9 @@ header {
   text-transform: uppercase;
   font-size: 30px;
   padding-bottom: 10px;
-  background-clip: text;
-	-webkit-background-clip: text;
-	color: transparent;
+  background-clip: content-box;
+  -webkit-background-clip: text;
+  color: transparent;
   background-image: url('images/fire.jpg');
 }
 
