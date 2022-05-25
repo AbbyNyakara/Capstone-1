@@ -1,0 +1,386 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-image: url("images/bg-mobile.png");
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover
+}
+
+.top-menu {
+  padding-left: 20px;
+  padding-top: 20px;
+  position: relative;
+}
+
+.top-menu img {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.header-content {
+  padding: 60px 20px 0; 
+  font-family: 'Lato', sans-serif;
+}
+
+.header-content .hello {
+  font-size: 25px;
+  color: #ec5242;
+  padding-bottom: 5px;
+}
+
+.header-content h1 {
+  font-weight: 700;
+  color: #ec5242;
+  text-transform: uppercase;
+}
+
+.intro-text {
+  background-color: #dfdfdf;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: 2px solid #fff;
+  padding: 2%;
+  color: #272a31;
+}
+
+.intro-text2 {
+  background-color: #fff;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: 2px solid #dfdfdf;
+  padding: 2%;
+  color: #272a31;
+}
+
+.send-email {
+  text-align: center;
+  line-height: 1.5;
+}
+
+.send-email span {
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+.date {
+  color: #272a31;
+  font-family: 'COCOGOOSE', sans-serif;
+  font-size: 25px;
+}
+
+.header-content small {
+  color: #272a31;
+  font-size: 16px;
+}
+
+/* Main Program  */
+
+.main-program {
+  background-image: url('images/schedule.jpeg');
+  padding-bottom: 30px;
+  font-family: 'Lato', sans-serif;
+  color: #fff;
+}
+
+.card {
+  background-color: rgb(223,223,223, 0.2);
+  padding: 10px;
+  display: grid;
+  grid-template-columns: 10% 20% 70%;
+  margin: 20px;
+  gap: 10px;
+}
+
+.main-program h2 {
+  text-align: center;
+  padding-top: 20px;
+  border-bottom: 1px solid #ec5242;
+  /* Resize the width of the border */
+}
+
+.main-program hr {
+  width: 40px;
+  margin: auto;
+  color: #ec5242;
+}
+
+.card > h3 {
+  color: #ec5242;
+  font-family: 'COCOGOOSE', sans-serif;;
+}
+
+.card img {
+  width: 25px;
+  height: 25px;
+  color: #fff;
+}
+
+.main-program .purchase {
+  display: grid;
+  place-items: center;
+}
+
+.main-program button {
+  background-color: #ec5242;
+  padding: 2% 5%;
+  border: none;
+  outline: none;
+  color: #fff;
+  font-family: 'Lato', sans-serif;
+  font-size: 15px;
+}
+
+.feature {
+  display: flex;
+  gap: 30px;
+  width: 80%;
+  margin: auto;
+}
+
+.featured {
+  background-image: url("images/bg-mobile.png");
+  padding: 3% 2%;
+  font-family: 'Lato', sans-serif;
+  display: grid;
+  grid-template-columns: 1fr;
+  place-items: center;
+}
+
+.feature {
+  margin-bottom: 40px;
+}
+
+.featured .feature .left {
+  position: relative;
+  margin-right: 20px;
+} 
+
+.left img {
+  min-width: 100px;
+  min-height: 100px;
+  max-width: 150px;
+  max-height: 150px;
+}
+
+.right .artist-name {
+  font-size: 20px;
+  font-weight: 600;
+  padding-bottom: 15px;
+}
+
+.artist-title {
+  font-size: 10px;
+}
+
+.right small {
+  color: #ec5242;
+  font-size: 16px;
+  font-style: italic;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #dfdfdf;
+}
+
+.artist-description {
+  padding-top: 20px;
+  font-size: 12px;
+}
+
+/* Partners Section  */
+
+.partners {
+  display: grid;
+  place-items: center;
+  background-color: #272a31;
+  padding: 2% 3%;
+  font-family: 'Lato', sans-serif;
+}
+
+.partners h3 {
+  color: #fff;
+  padding: 20px;
+}
+
+.container-logo {
+  padding-bottom: 30px;
+  padding-left: 40px;
+}
+
+/* Footer Section */
+footer {
+  padding: 30px;
+  font-family: 'Lato', sans-serif;
+  display: flex;
+  gap: 20px;
+  color: #272a31;
+}
+
+/* About Page */
+
+.history {
+  font-family: 'Lato', sans-serif;
+  display: grid;
+  place-items: center;
+  text-align: center;
+  color: #272a31;
+  padding: 40px 20px;
+
+}
+
+.history h2 {
+  padding-bottom: 20px;
+}
+
+/* Featured Concerts */
+.featured-concerts {
+  display: grid;
+  place-items: center;
+  background-image: url("images/bg-mobile.png");
+  font-family: 'Lato', sans-serif;
+  padding: 20px;
+}
+
+.concert-intro {
+  padding-bottom: 30px;
+}
+
+.previous-concert {
+  z-index: -5;
+}
+
+.featured-concerts .concert-1 {
+  padding-bottom: 30px;
+}
+
+
+
+/* Mobile menu  */
+
+.mobile-menu {
+  position: absolute;
+  background-color: #dfdfdf;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  font-family: 'Lato', sans-serif;
+  cursor: pointer;
+  visibility: hidden;
+  opacity: 90%;
+}
+
+.mobile-menu > a {
+  padding-bottom: 20px;
+  cursor: pointer;
+  color: #272a31;
+  text-decoration: none;
+}
+
+.cancel {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  color: #272a31;
+  font-size: 29px;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.show {
+  visibility: visible;
+}
+
+.desktop-only {
+  display: none;
+}
+
+/* Destop Version  */
+@media only screen and (min-width: 768px) {
+  header .top-menu {
+    display: none;
+  }
+
+  .social-icons {
+    width: 20px;
+    height: 20px;
+    z-index: 2;
+    color: #fff;
+  }
+
+  .top-header {
+    display: flex;
+    gap: 15px;
+    background: #272a31;
+    z-index: 0;
+    color: #dfdfdf;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding: 5px 20px;
+    padding-right: 150px;
+  }
+
+  .bottom-header {
+    display: flex;
+    gap: 30px;
+    background: #fff;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 10px 150px 0;
+  }
+
+  .desktop-header-content {
+    display: flex;
+    gap: 30px;
+    margin-left: auto;
+  }
+
+  .desktop-header-content .attend {
+    color: #ec5242;
+    border: 3px solid #ec5242;
+    padding: 5px 10px;
+  }
+
+  .desktop-header-content .about-header {
+    color: #ec5242;
+  }
+
+  .desktop-header-content .about-header:hover {
+    color: #272a31;
+  }
+
+  .desktop-header-content .attend:hover {
+    color: #fff;
+    border: 3px solid #ec5242;
+    padding: 5px 10px;
+    background-color: #ec5242;
+  }
+
+  .program-cards {
+    display: flex;
+  }
+
+  .card {
+    grid-template-columns: 1fr;
+    place-items: center;
+    text-align: center;
+  }
+
+  header {
+    background-image: url("images/bg-desktop.png");
+  }
+
+  .featured {
+    background-image: url("images/bg-desktop.png");
+  }
+
+}
