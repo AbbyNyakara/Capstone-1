@@ -13,7 +13,7 @@
 
 ## Live Demo (if available)
 
-You can view the deployed project [here]()
+You can view the deployed project [here](https://abbynyakara.github.io/Capstone-1/). The presentation for the project can also be viewed [here] (https://www.loom.com/share/2a0c91ad68a94e2faa727d450d35b1e2)
 
 
 ## Getting Started
