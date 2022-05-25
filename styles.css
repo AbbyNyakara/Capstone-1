@@ -1,4 +1,4 @@
-*{
+* {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
@@ -8,7 +8,7 @@ header {
   background-image: url("images/bg-mobile.png");
   height: 100vh;
   background-repeat: no-repeat;
-  background-size: cover
+  background-size: cover;
 }
 
 .top-menu {
@@ -24,7 +24,7 @@ header {
 }
 
 .header-content {
-  padding: 60px 20px 0; 
+  padding: 60px 20px 0;
   font-family: 'Lato', sans-serif;
 }
 
@@ -89,7 +89,7 @@ header {
 }
 
 .card {
-  background-color: rgb(223,223,223, 0.2);
+  background-color: rgb(223, 223, 223, 0.2);
   padding: 10px;
   display: grid;
   grid-template-columns: 10% 20% 70%;
@@ -101,7 +101,6 @@ header {
   text-align: center;
   padding-top: 20px;
   border-bottom: 1px solid #ec5242;
-  /* Resize the width of the border */
 }
 
 .main-program hr {
@@ -112,7 +111,7 @@ header {
 
 .card > h3 {
   color: #ec5242;
-  font-family: 'COCOGOOSE', sans-serif;;
+  font-family: 'COCOGOOSE', sans-serif;
 }
 
 .card img {
@@ -141,6 +140,7 @@ header {
   gap: 30px;
   width: 80%;
   margin: auto;
+  margin-bottom: 40px;
 }
 
 .featured {
@@ -150,10 +150,6 @@ header {
   display: grid;
   grid-template-columns: 1fr;
   place-items: center;
-}
-
-.feature {
-  margin-bottom: 40px;
 }
 
 .featured .feature .left {
@@ -382,5 +378,4 @@ footer {
   .featured {
     background-image: url("images/bg-desktop.png");
   }
-
 }
