@@ -6,9 +6,10 @@
 
 header {
   background-image: url("images/bg-mobile.png");
-  height: 100vh;
+  min-height: 100vh;
   background-repeat: no-repeat;
   background-size: cover;
+  padding-bottom: 20px;
 }
 
 .top-menu {
@@ -29,15 +30,21 @@ header {
 }
 
 .header-content .hello {
-  font-size: 25px;
+  font-size: 30px;
   color: #ec5242;
-  padding-bottom: 5px;
+  padding-bottom: 20px;
+  font-weight: bolder;
 }
 
 .header-content h1 {
   font-weight: 700;
-  color: #ec5242;
   text-transform: uppercase;
+  font-size: 30px;
+  padding-bottom: 10px;
+  background-clip: text;
+	-webkit-background-clip: text;
+	color: transparent;
+  background-image: url('images/fire.jpg');
 }
 
 .intro-text {
@@ -331,6 +338,11 @@ footer {
     padding: 10px 150px 0;
   }
 
+  .header-content {
+    max-width: 800px;
+    margin: auto;
+  }
+
   .desktop-header-content {
     display: flex;
     gap: 30px;
@@ -345,6 +357,7 @@ footer {
 
   .desktop-header-content .about-header {
     color: #ec5242;
+    text-decoration: none;
   }
 
   .desktop-header-content .about-header:hover {
@@ -356,6 +369,10 @@ footer {
     border: 3px solid #ec5242;
     padding: 5px 10px;
     background-color: #ec5242;
+  }
+
+  .header-content h1 {
+    font-size: 45px;
   }
 
   .program-cards {
@@ -374,5 +391,15 @@ footer {
 
   .featured {
     background-image: url("images/bg-desktop.png");
+  }
+
+  .featured-concerts {
+    background-image: url("images/bg-desktop.png");
+  }
+
+  .display-concerts {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 100px;
   }
 }

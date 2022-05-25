@@ -8,17 +8,37 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
     <link href="http://fonts.cdnfonts.com/css/cocogoose" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/e8963cdebe.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="styles.css">
     <title>Nairobi Classical Festival</title>
 </head>
 <body>
     <main>
         <header>
+            <div class="desktop-only top-header">
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+                <p>Translate</p>
+                <p>Logout</p>
+            </div>
+    
+            <div class="desktop-only bottom-header">
+                <div class="project-logo">
+                    <a href="index.html"><img src="images/main-logo.svg" alt="logo-image"></a>
+                </div>
+                <div class="desktop-header-content">
+                    <p class="about-header">About</p>
+                    <p>News Letter</p>
+                    <p>Concert Program</p>
+                    <p class="attend">Attend</p>
+                </div>
+            </div>
+
             <div class="top-menu">
                 <img src="images/menu.png" alt="">
             </div>
             <div class="header-content">
-                <p class="hello">Hello! Musical World!</p>
+                <p class="hello">"Hello! Musical World!"</p>
                 <h1>Nairobi Classical Concert 2022</h1>
                 <p class="intro-text2">The Concert brings together people in music, from child prodigies to
                     classical music lovers. Spreading the classics to Africa is our passion. And we will be having
@@ -26,25 +46,6 @@
                 <p class="send-email">Please send any queries or questions regarding the concert to <span>Nairobiclassics@plan.org</span></p>
             </div>
         </header>
-
-        <div class="desktop-only top-header">
-            <img class="social-icons" src="images/facebook.png" alt="">
-            <img class="social-icons" src="images/twitter.png" alt="">
-            <p>Translate</p>
-            <p>Logout</p>
-        </div>
-
-        <div class="desktop-only bottom-header">
-            <div class="project-logo">
-                <img src="images/main-logo.svg" alt="">
-            </div>
-            <div class="desktop-header-content">
-                <p class="about-header">About</p>
-                <p>News Letter</p>
-                <p>Concert Program</p>
-                <p class="attend">Attend</p>
-            </div>
-        </div>
 
         <!-- Mobile menu  -->
 
@@ -66,14 +67,16 @@
 
         <div class="featured-concerts">
             <h2 class="concert-intro">A Look at Previous Concerts</h2>
-            <div class="concert-1">
-                <img class="previous-concert" src="images/orchestra1.jpg" alt="">
-                <p class="overlay-text">2020 Classical Concert in Kigali, Rwanda</p>
-            </div>
+            <div class="display-concerts">
+                <div class="concert-1">
+                    <img class="previous-concert" src="images/orchestra1.jpg" alt="">
+                    <p class="overlay-text">2020 Classical Concert in Kigali, Rwanda</p>
+                </div>
 
-            <div class="concert-1">
-                <img class="previous" src="images/orchestra2.jpg" alt="">
-                <p class="overlay-text">2019 Classical Concert in Kampala, Uganda</p>
+                <div class="concert-1">
+                    <img class="previous" src="images/orchestra2.jpg" alt="">
+                    <p class="overlay-text">2019 Classical Concert in Kampala, Uganda</p>
+                </div>
             </div>
         </div>
 
