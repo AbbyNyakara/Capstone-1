@@ -155,7 +155,7 @@ header {
 .featured .feature .left {
   position: relative;
   margin-right: 20px;
-} 
+}
 
 .left img {
   min-width: 100px;
@@ -225,7 +225,6 @@ footer {
   text-align: center;
   color: #272a31;
   padding: 40px 20px;
-
 }
 
 .history h2 {
@@ -252,8 +251,6 @@ footer {
 .featured-concerts .concert-1 {
   padding-bottom: 30px;
 }
-
-
 
 /* Mobile menu  */
 
