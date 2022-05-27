@@ -188,7 +188,8 @@ header {
 
 .featured-section {
   display: grid;
-  padding: 30px 20px;
+  padding: 20px;
+  align-items: start;
 }
 
 .featured-container hr {
