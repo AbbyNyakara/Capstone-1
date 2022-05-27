@@ -2,71 +2,54 @@
 
 # Project Name
 
-> Description the project.
+> Capstone project created using [this](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015) design template.
 
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- HTML
+- CSS
+- Javascript
 
-## Live Demo (if available)
+## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+You can view the deployed project [here](https://abbynyakara.github.io/Capstone-1/). The presentation for the project can also be viewed [here] (https://www.loom.com/share/2a0c91ad68a94e2faa727d450d35b1e2)
 
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
+- IDE (E.g Atom/ Visual studi code)
 
 ### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
+- You can download the file directly by downloading as a zip file directly from github.
+- Alternatively, you can clone the repository by running the git clone command. s
 
 ## Authors
 
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@AbbyNyakara](https://github.com/AbbyNyakara)
+- Twitter: [@AbbyNyakara](https://twitter.com/AbbyNyakara)
+- LinkedIn: [AbigaelNyakara](https://linkedin.com/in/AbbyNyakara001)
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page]
 
 ## Show your support
 
 Give a ⭐️ if you like this project!
 
 ## Acknowledgments
-
+- The credit of design of this website goes to [Cindy Shin](https://www.behance.net/adagio07) the author of the original design, as required by the [Creative Commons License](https://creativecommons.org/licenses/)."
 - Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- Icons from [font-awesome](https://fontawesome.com/)
+- Fonts from [Google-fonts](https://fonts.google.com/) and [cdn-fonts](https://www.cdnfonts.com/)
 
 ## 📝 License
 
