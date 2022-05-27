@@ -18,8 +18,6 @@ You can view the deployed project [here](https://abbynyakara.github.io/Capstone-
 
 ## Getting Started
 
-- The credit of design of this website goes to [Cindy Shin](https://www.behance.net/adagio07) the author of the original design, as required by the [Creative Commons License](https://creativecommons.org/licenses/)."
-
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
@@ -48,7 +46,7 @@ Feel free to check the [issues page]
 Give a ⭐️ if you like this project!
 
 ## Acknowledgments
-
+- The credit of design of this website goes to [Cindy Shin](https://www.behance.net/adagio07) the author of the original design, as required by the [Creative Commons License](https://creativecommons.org/licenses/)."
 - Hat tip to anyone whose code was used
 - Icons from [font-awesome](https://fontawesome.com/)
 - Fonts from [Google-fonts](https://fonts.google.com/) and [cdn-fonts](https://www.cdnfonts.com/)
