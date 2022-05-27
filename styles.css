@@ -56,7 +56,6 @@ header {
 .intro-text2 {
   background-color: #fff;
   margin-top: 10px;
-  margin-bottom: 10px;
   border: 2px solid #dfdfdf;
   padding: 2%;
   color: #272a31;
@@ -164,7 +163,7 @@ header {
   padding-top: 30px;
 }
 
-.featured-section  .checked-bg {
+.featured-section .checked-bg {
   width: 120px;
   height: 120px;
 }
@@ -220,7 +219,6 @@ header {
   margin-left: 0;
   margin-right: 0;
   margin-top: 10px;
-  margin-bottom: 10px;
   width: 30px;
 }
 
