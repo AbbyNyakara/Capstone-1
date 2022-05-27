@@ -45,18 +45,32 @@ const featuredArray = [
   },
 ];
 
-featured.innerHTML = featuredArray.map((project) => {
-  const html = `
-        <div class="feature">
-                    <div class="left ray">
-                        <img src="${project.profileImg}" alt="">
-                    </div>
-                    <div class="right">
-                        <h3 class="artist-name">${project.personName}</h3>
-                        <small class="artist-title">${project.personTitle}</small>
-                        <p class="artist-description">${project.description}</p>
-                    </div>
-        </div>
-    `;
-  return html;
-});
+// featured.innerHTML = featuredArray.map((project) => {
+//   const html = `
+//         <div class="feature">
+//                     <div class="left ray">
+//                         <img src="${project.profileImg}" alt="">
+//                     </div>
+//                     <div class="right">
+//                         <h3 class="artist-name">${project.personName}</h3>
+//                         <small class="artist-title">${project.personTitle}</small>
+//                         <p class="artist-description">${project.description}</p>
+//                     </div>
+//         </div>
+//     `;
+//   return html;
+// });
+
+if (screen.width <= 768){
+  const displayButton = document.getElementById('display-button');
+  const allFeatures = document.querySelectorAll('.featured-section .feature')
+
+  displayButton.addEventListener('click', ()=>{
+    // alert("hello");
+    allFeatures.forEach((oneFeature)=>{
+      oneFeature.classList.add('load-all');
+      oneFeature.classList.remove('onload-display');
+      displayButton.innerHTML = 'End of display';
+    });
+  });
+};

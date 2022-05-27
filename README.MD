@@ -11,14 +11,14 @@
 - CSS
 - Javascript
 
-## Live Demo (if available)
+## Live Demo
 
 You can view the deployed project [here](https://abbynyakara.github.io/Capstone-1/). The presentation for the project can also be viewed [here] (https://www.loom.com/share/2a0c91ad68a94e2faa727d450d35b1e2)
 
 
 ## Getting Started
 
-- The project was originally designed by [Candance-Chin]
+- The credit of design of this website goes to [Cindy Shin](https://www.behance.net/adagio07) the author of the original design, as required by the [Creative Commons License](https://creativecommons.org/licenses/)."
 
 To get a local copy up and running follow these simple example steps.
 
@@ -27,8 +27,7 @@ To get a local copy up and running follow these simple example steps.
 
 ### Setup
 - You can download the file directly by downloading as a zip file directly from github.
-- Alternatively, you can clone the repository by running the git clone command. 
-
+- Alternatively, you can clone the repository by running the git clone command. s
 
 ## Authors
 
